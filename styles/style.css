@@ -93,3 +93,45 @@
 .body{
     padding-top: 25px;
 }
+
+.about-content{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-color: rgb(255, 248, 243);
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+.about{
+    width: 827px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info{
+    display: flex;
+}
+
+.about-me{
+    font-size: 35px;
+    margin-bottom: -5px;
+}
+
+.desc{
+    text-align: center;
+}
+
+
+.about>div>div{
+    margin-right: 30px;
+    text-align: center;
+}

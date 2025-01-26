@@ -1,0 +1,38 @@
+.navbar{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91.666667%; /* 11/12 = 91.666667% */
+    margin: 0 auto;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: bolder;
+    color: black;
+}
+
+.nav-title-part{
+    color: rgb(253, 110, 10);
+}
+
+.nav-links{
+    margin-right: 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(253, 110, 10);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}

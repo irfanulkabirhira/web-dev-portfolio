@@ -7,6 +7,12 @@
     margin: 0 auto;
 }
 
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 .nav-title{
     font-size: 45px;
     font-weight: bolder;
@@ -35,4 +41,9 @@
     font-size: 20px;
     border: none;
     border-radius: 5px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
 }

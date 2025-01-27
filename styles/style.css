@@ -206,3 +206,49 @@ hr{
 .education-one, .experience-one>h3{
     color: rgb(71, 71, 71);
 }
+
+.footer{
+    background-color: rgb(255, 248, 243);
+    padding: 100px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lets-connect{
+    width: 560px;
+}
+
+.message-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 349px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    padding-top: 18px;
+    padding-bottom: 134px;
+    padding-right: 365px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.social-icons>img{
+    margin-right: 10px;
+}
